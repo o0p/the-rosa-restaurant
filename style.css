@@ -87,4 +87,6 @@ header {
     width: 80%;
     height: 100vh;
     background-color: var(--main-font-color-dark);
+    padding: 4.4rem;
+    display: flex;
 }
