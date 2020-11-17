@@ -39,3 +39,8 @@ a {
 p {
     font-size: 1.6rem;
 }
+
+.container {
+    width: 100%;
+    max-width: 122.5rem;
+}
