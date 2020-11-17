@@ -14,4 +14,9 @@
     --main-font-color-dark: #252525;
     --secondary-font-color: #C59d5F;
     --body-font-color: #515151;
+} 
+
+html {
+    font-family: var(--body-font);
+    font-size: 10px;
 }
