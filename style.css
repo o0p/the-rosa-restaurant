@@ -72,4 +72,5 @@ header {
     transform: translateY(-50%);
     right: 2.5rem;
     cursor: pointer;
+    z-index: 1500;
 }
