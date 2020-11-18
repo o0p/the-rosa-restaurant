@@ -117,3 +117,7 @@ header {
 .open .fa-bars {
     display: none;
 }
+
+.open .nav-list {
+    transform: translateX(0);
+}
