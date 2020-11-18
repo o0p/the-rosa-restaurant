@@ -110,6 +110,6 @@ header {
     transition: opacity .5s;
 }
 
-.open {
-    
+.open .fa-times{
+    display: block;
 }
