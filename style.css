@@ -113,3 +113,7 @@ header {
 .open .fa-times{
     display: block;
 }
+
+.open .fa-bars {
+    display: none;
+}
