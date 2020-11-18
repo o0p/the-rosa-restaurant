@@ -121,3 +121,8 @@ header {
 .open .nav-list {
     transform: translateX(0);
 }
+
+.open .nav::before {
+    opacity: 1;
+    transform: scale(1);
+}
