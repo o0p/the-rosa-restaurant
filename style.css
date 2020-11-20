@@ -138,5 +138,8 @@ header {
     font-size: 1.6rem;
     letter-spacing: 2px;
     margin-right: -2px;
-    transition: color .5s;
+    transition: color .2s ease-out;
 }
+
+.nav-link:hover {
+    color: var(--secondary-font-color);
