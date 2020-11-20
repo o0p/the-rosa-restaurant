@@ -126,3 +126,20 @@ header {
     opacity: 1;
     transform: scale(1);
 }
+
+.nav-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav-link {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    margin-right: -2px;
+    transition: color .2s ease-out;
+}
+
+.nav-link:hover {
+    color: var(--secondary-font-color);
