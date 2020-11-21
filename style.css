@@ -9,7 +9,7 @@
 
 :root {
     --main-font: 'Source Sans Pro', sans-serif;
-    --secondary-font: 'Herr Von Mullerhoff', cursive;
+    --secondary-font: 'Herr Von Muellerhoff', cursive;
     --body-font: 'Cabin', sans-serif;
     --main-font-color-dark: #252525;
     --secondary-font-color: #C59d5F;
@@ -154,4 +154,13 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.sub-headline {
+    font-size: 8.5rem;
+    font-family: var(--secondary-font);
+    color: var(--secondary-font-color);
+    font-weight: 100;
+    line-height: .6;
+    letter-spacing: 2px;
 }
