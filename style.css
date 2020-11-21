@@ -182,3 +182,15 @@ header {
     font-weight: 200;
     letter-spacing: .1rem;
 }
+
+.seperator {
+    /* display: flex; */
+
+}
+
+.line {
+    max-width: 8.4rem;
+    height: .25rem;
+    background-color: #fff;
+    position: relative;
+}
