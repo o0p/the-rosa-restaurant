@@ -230,3 +230,25 @@ header {
     letter-spacing: 3px;
     margin-right: -3px;
 }
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: -2px;
+}
+
+.cta-btn {
+    font-size: 1.1rem;
+    background-color: #fff;
+    padding: .9rem 1.8rem;
+    color: var(--body-font-color);
+    border-radius: .4rem;
+    transition: background-color .3s;
+}
+
+.cta-btn:hover, 
+.cta-btn:focus {
+    color: #fff;
+    background-color: var(--secondary-font-color);
+}
