@@ -230,3 +230,10 @@ header {
     letter-spacing: 3px;
     margin-right: -3px;
 }
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: -2px;
+}
