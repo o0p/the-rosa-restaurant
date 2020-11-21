@@ -163,6 +163,8 @@ header {
     font-weight: 100;
     line-height: .6;
     letter-spacing: 2px;
+    position: relative;
+    right: 17px;
 }
 
 .first-letter {
@@ -173,5 +175,10 @@ header {
 }
 
 .headline {
-
+    color: #fff;
+    font-size: 3.7rem;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: .1rem;
 }
