@@ -298,7 +298,18 @@ header {
 
 .body-btn {
     font-size: 1.5rem;
-    columns: var(--secondary-font-color);
+    color: var(--secondary-font-color);
     position: relative;
     transition: color .3s;
+}
+
+.body-btn::before {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: var(--secondary-font-color);
+    transition: background-color 0.3s;
 }
