@@ -313,3 +313,13 @@ header {
     background-color: var(--secondary-font-color);
     transition: background-color 0.3s;
 }
+
+.body-btn:hover,
+.body-btn:focus {
+    color: var(--main-font-color-dark);
+}
+
+.body-btn:hover::before,
+.body-btn:focus::before {
+    background-color: var(--main-font-color-dark);
+}
