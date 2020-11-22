@@ -290,3 +290,8 @@ header {
 .restaurant-description {
     margin-bottom: 3rem;
 }
+
+.restaurant-description p {
+    line-height: 1.6;
+    margin-bottom: 2.4rem;
+}
