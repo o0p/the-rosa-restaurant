@@ -325,3 +325,7 @@ header {
 }
 
 /* Recipes */
+.tasteful-recipes {
+    background-image: url(images/tasteful-recipes.jpg);
+    background-size: cover;
+}
