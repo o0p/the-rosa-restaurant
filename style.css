@@ -383,3 +383,7 @@ footer {
     font-size: 2rem;
     padding: 2rem;
 }
+
+.footer-content {
+    /* overflow: hidden; */
+}
