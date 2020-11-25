@@ -356,3 +356,30 @@ header {
     background: url('images/perfect-blend.jpg') center no-repeat;
     background-size: cover;
 }
+
+/* Footer */
+footer {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 7.9rem;
+}
+
+.back-to-top {
+    width: 7rem;
+    height: 7rem;
+    background-color: #121212;
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+.back-to-top i {
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem;
+}
