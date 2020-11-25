@@ -376,3 +376,10 @@ footer {
     transform: translateX(-50%);
     border-radius: 50%;
 }
+
+.back-to-top i {
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem;
+}
