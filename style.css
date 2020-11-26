@@ -431,5 +431,13 @@ footer {
 .newsletter-form {
     width: 100%;
     display: flex;
+    justify-content: center;
     position: relative;
+}
+
+.newsletter-input {
+    width: 100%;
+    max-width: 25rem;
+    padding: 1rem;
+    border-radius: .4rem;
 }
