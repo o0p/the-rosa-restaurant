@@ -459,7 +459,14 @@ footer {
     section {
         padding: 7.9rem;
     }
+
     .menu-toggle {
         display: none;
     }
+
+    .nav {
+        justify-content: space-between;
+    }
+
+
 }
