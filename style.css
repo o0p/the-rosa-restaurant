@@ -407,3 +407,8 @@ footer {
 .footer-content-about p {
     line-height: 2;
 }
+
+.social-icons {
+    list-style: none;
+    margin-bottom: 5.4rem;
+}
