@@ -441,3 +441,15 @@ footer {
     padding: 1rem;
     border-radius: .4rem;
 }
+
+.newsletter-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 1px .6rem;
+    position: absolute;
+    margin-top: .9rem;
+    margin-left: -2.8rem;
+    color: var(--main-font-color-dark);
+}
