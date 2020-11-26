@@ -420,4 +420,10 @@ footer {
     color: #fff;
     padding: .8rem 2rem;
     opacity: .5;
+    transition: color .3s;
+}
+
+.social-icons i:hover,
+.social-icons i:focus {
+    color:  var(--secondary-font-color);
 }
