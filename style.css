@@ -374,7 +374,7 @@ footer {
     top: -3rem;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 50%;
+    border-radius: 60%;
 }
 
 .back-to-top i {
@@ -398,4 +398,8 @@ footer {
 
 .footer-content .asterisk {
     margin: 2.4rem 0;
+}
+
+.footer-content-about {
+    margin-bottom: 5.4rem;
 }
