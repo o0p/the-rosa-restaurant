@@ -411,4 +411,13 @@ footer {
 .social-icons {
     list-style: none;
     margin-bottom: 5.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons i {
+    font-size: 2rem;
+    color: #fff;
+    padding: .8rem 2rem;
+    opacity: .5;
 }
