@@ -427,3 +427,9 @@ footer {
 .social-icons i:focus {
     color:  var(--secondary-font-color);
 }
+
+.newsletter-form {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
