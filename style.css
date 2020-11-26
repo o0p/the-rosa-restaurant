@@ -403,3 +403,7 @@ footer {
 .footer-content-about {
     margin-bottom: 5.4rem;
 }
+
+.footer-content-about p {
+    line-height: 2;
+}
