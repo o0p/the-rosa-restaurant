@@ -541,4 +541,9 @@ footer {
     .line {
         max-width: 11.4rem;
     }
+
+    .restaurant-info {
+        display: flex;
+        align-items: center;
+    }
 }
