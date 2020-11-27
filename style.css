@@ -571,4 +571,12 @@ footer {
         display: flex;
         justify-content: center;
     }
+
+    .social-icons,
+    .newsletter-form {
+        width: 100%;
+        max-width: 27.3rem;
+        margin: 0 1rem;
+    }
+
 }
