@@ -554,4 +554,9 @@ footer {
     .padding-right {
         padding-right: 7rem;
     }
+
+    .footer-content {
+        max-width: 77.5rem;
+    }
+
 }
