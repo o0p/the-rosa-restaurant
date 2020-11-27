@@ -452,16 +452,18 @@ footer {
     margin-top: .5rem;
     margin-left: -3.6rem;
     color: var(--main-font-color-dark);
-    transition: color 1s;
-    text-shadow: 0px 0px 5px #121212;
+    transition: color 250ms;
+    text-shadow: 0px 0px 2px #121212;
 
 
 }
 .newsletter-btn i:hover,
 .newsletter-btn i:focus {
     color:  var(--secondary-font-color);
-    text-shadow: 0px 2px 5px #fff;
-    transition: color 500ms;
+    text-shadow: 0px 1px 3px #fff;
+    transition: color 250ms;
+    transition: text-shadow 100ms;
+
 }
 
 /* Tablets and smaller */
@@ -502,10 +504,83 @@ footer {
         text-shadow: 1px 20px 2px rgba(197, 157, 95, 0.4);
         
     }
+
     .nav-item:last-child {
         margin-right: 0;
     }
+
     .nav-link {
         font-size: 1.3rem;
     }
+
+    .active {
+        position: relative;
+    }
+
+    .active::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        left: -1px;
+        bottom: -3px;
+    }
+
+    .sub-headline {
+        font-size: 10rem;
+    }
+
+    .first-letter {
+        font-size: 12.2rem;
+    }
+
+    .headline {
+        font-size: 4.7rem;
+        letter-spacing: .8rem;
+    }
+
+    .line {
+        max-width: 11.4rem;
+    }
+
+    .restaurant-info {
+        display: flex;
+        align-items: center;
+    }
+
+    .restaurant-info > div {
+        flex: 1;
+    }
+    
+    .padding-right {
+        padding-right: 7rem;
+    }
+
+    .footer-content {
+        max-width: 77.5rem;
+        margin: auto;
+    }
+
+    .footer-content-about {
+        max-width: 51.3rem;
+        margin: 0 auto 5.4rem;
+    }
+
+    .footer-content-divider {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-icons,
+    .newsletter-form {
+        width: 100%;
+        max-width: 27.3rem;
+        margin: 0 1rem;
+    }
+
+    .social-icons i {
+        opacity: 1;
+    }
+
 }
