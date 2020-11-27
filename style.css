@@ -537,4 +537,8 @@ footer {
         font-size: 4.7rem;
         letter-spacing: .8rem;
     }
+
+    .line {
+        max-width: 11.4rem;
+    }
 }
