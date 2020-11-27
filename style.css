@@ -490,4 +490,9 @@ footer {
         transition: initial;
     }
 
+    .nav-item {
+        margin: 0 2.4rem;
+        border: none;
+    }
+
 }
