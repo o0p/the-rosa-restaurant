@@ -452,16 +452,18 @@ footer {
     margin-top: .5rem;
     margin-left: -3.6rem;
     color: var(--main-font-color-dark);
-    transition: color 1s;
-    text-shadow: 0px 0px 5px #121212;
+    transition: color 250ms;
+    text-shadow: 0px 0px 2px #121212;
 
 
 }
 .newsletter-btn i:hover,
 .newsletter-btn i:focus {
     color:  var(--secondary-font-color);
-    text-shadow: 0px 2px 5px #fff;
-    transition: color 500ms;
+    text-shadow: 0px 1px 3px #fff;
+    transition: color 250ms;
+    transition: text-shadow 100ms;
+
 }
 
 /* Tablets and smaller */
@@ -565,4 +567,8 @@ footer {
         margin: 0 auto 5.4rem;
     }
 
+    .footer-content-divider {
+        display: flex;
+        justify-content: center;
+    }
 }
