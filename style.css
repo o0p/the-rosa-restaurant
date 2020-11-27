@@ -490,4 +490,22 @@ footer {
         transition: initial;
     }
 
+    .nav-item {
+        margin: 0 2.4rem;
+        border: none;
+        transition: text-shadow .3s ease-out;
+
+    }
+
+    .nav-item:hover,
+    .nav-item:focus {
+        text-shadow: 1px 20px 2px rgba(197, 157, 95, 0.4);
+        
+    }
+    .nav-item:last-child {
+        margin-right: 0;
+    }
+    .nav-link {
+        font-size: 1.3rem;
+    }
 }
