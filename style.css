@@ -557,6 +557,8 @@ footer {
 
     .footer-content {
         max-width: 77.5rem;
+        margin: auto;
     }
+
 
 }
