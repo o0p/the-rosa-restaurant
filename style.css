@@ -532,4 +532,9 @@ footer {
     .first-letter {
         font-size: 12.2rem;
     }
+
+    .headline {
+        font-size: 4.7rem;
+        letter-spacing: .8rem;
+    }
 }
