@@ -546,4 +546,8 @@ footer {
         display: flex;
         align-items: center;
     }
+
+    .restaurant-info > div {
+        flex: 1;
+    }
 }
