@@ -560,5 +560,9 @@ footer {
         margin: auto;
     }
 
+    .footer-content-about {
+        max-width: 51.3rem;
+        margin: 0 auto 5.4rem;
+    }
 
 }
