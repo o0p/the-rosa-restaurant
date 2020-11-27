@@ -508,4 +508,7 @@ footer {
     .nav-link {
         font-size: 1.3rem;
     }
+    .active {
+        position: relative;
+    }
 }
