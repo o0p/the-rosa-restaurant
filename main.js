@@ -34,3 +34,9 @@ sr.reveal('.animate-top',{
     delay: 150
 });
 
+sr.reveal('.animate-bottom',{
+    origin: 'bottom',
+    duration: 1000,
+    distance: '25rem',
+    delay: 150
+});
