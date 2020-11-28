@@ -26,3 +26,17 @@ sr.reveal('.animate-right',{
     distance: '25rem',
     delay: 150
 });
+
+sr.reveal('.animate-top',{
+    origin: 'top',
+    duration: 1000,
+    distance: '25rem',
+    delay: 150
+});
+
+sr.reveal('.animate-bottom',{
+    origin: 'bottom',
+    duration: 1000,
+    distance: '25rem',
+    delay: 150
+});
