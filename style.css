@@ -204,6 +204,9 @@ header {
     height: .25rem;
     background-color: #fff;
     position: relative;
+    animation: grow 1.5s forwards;
+    animation-delay: .5s;
+    opacity: 0;
 }
 
 .line-right::before,
@@ -212,7 +215,10 @@ header {
     position: absolute;
     top: 50%;
     transform:translateY(-50%) ;
-    border: .6rem solid transparent;    
+    border: .6rem solid transparent;
+    animation: grow .2s forwards;
+    animation-delay: .7s;
+    opacity: 0;
 }
 
 .line-right::before {
@@ -224,10 +230,19 @@ header {
     left: 0;
 }
 
+.single-animation{
+    animation: fadeDown 0.8s forwards;
+    animation-delay: .7s;
+    opacity:0;
+}
+
 .asterisk {
     font-size: 1.2rem;
     color: var(--secondary-font-color);
     margin: 0 1.6rem;
+    animation: spin .5s forwards;
+    animation-delay: .7s;
+    opacity: 0;
 }
 
 .headline-description h5 {
@@ -388,6 +403,7 @@ footer {
     color: #fff;
     font-size: 2rem;
     padding: 2rem;
+    animation: up 2s infinite;
 }
 /* Footer */
 .footer-content {
@@ -609,3 +625,47 @@ footer {
         transform: scale(1);
     }
 }
+
+@keyframes grow {
+    0% {
+        width: 0;
+    }
+    100% {
+        opacity: 1;
+        width: 100%;
+        }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(-360deg);
+        }
+}
+
+@keyframes fadeDown {
+    0% {
+        transform: translateY(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes up {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+}
+
