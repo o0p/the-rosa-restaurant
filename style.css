@@ -605,6 +605,12 @@ footer {
     }
 }
 
+@media screen and (min-width: 320px) {
+    footer .container {
+        padding: 0;
+    }
+}
+
 /* Animations */
 @keyframes fadeUp {
     0% {
