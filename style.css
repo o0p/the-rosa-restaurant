@@ -240,6 +240,9 @@ header {
     font-size: 1.2rem;
     color: var(--secondary-font-color);
     margin: 0 1.6rem;
+    animation: spin .5s forwards;
+    animation-delay: .7s;
+    opacity: 0;
 }
 
 .headline-description h5 {
@@ -629,6 +632,16 @@ footer {
     100% {
         opacity: 1;
         width: 100%;
+        }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(-360deg);
         }
 }
 
