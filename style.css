@@ -23,6 +23,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 section {
     padding: 3.9rem 0;
 }
@@ -144,6 +148,7 @@ header {
 .nav-link:hover { 
     color: var(--secondary-font-color);
 }
+
 /* Hero */
 .hero {
     height: 100%;
@@ -258,7 +263,6 @@ header {
 }
 
 /* Discover our story */
-
 .global-headline {
     text-align: center;
     margin-top: 3.9rem;
@@ -342,7 +346,6 @@ header {
 }
 
 /* Discover our menu */
-
 .img-group {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -355,7 +358,6 @@ header {
 }
 
 /* The perfect blend */
-
 .perfect-blend {
     background: url('images/perfect-blend.jpg') center no-repeat;
     background-size: cover;
@@ -458,9 +460,8 @@ footer {
     color: var(--main-font-color-dark);
     transition: color 250ms;
     text-shadow: 0px 0px 2px #121212;
-
-
 }
+
 .newsletter-btn i:hover,
 .newsletter-btn i:focus {
     color:  var(--secondary-font-color);
