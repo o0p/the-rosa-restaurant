@@ -19,3 +19,10 @@ sr.reveal('.animate-left',{
     distance: '25rem',
     delay: 50
 });
+
+sr.reveal('.animate-right',{
+    origin: 'right',
+    duration: 1000,
+    distance: '25rem',
+    delay: 150
+});
