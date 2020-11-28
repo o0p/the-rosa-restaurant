@@ -407,7 +407,7 @@ footer {
 }
 /* Footer */
 .footer-content {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .footer-content h4 {
